@@ -1,0 +1,29 @@
+.tour-list{
+    width: 70vw; //vw: view-width i.e.. 70% of screen width
+    margin: 0 auto;
+    padding: 1rem; // rem are used because it's a responsive values can adjust to any other values like px n othr
+}
+
+@media screen and (min-width: 770px) {
+    .tour-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .tour-list{
+        width: 85vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .tour-list{
+        
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+}

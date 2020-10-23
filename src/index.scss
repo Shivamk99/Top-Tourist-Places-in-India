@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+$mainBlack: #222;
+$mainGreen: #82b340;
+$mainWhite: #fff;
+$mainOrange: #FFA500;
+$mainGrey: #ececec;
+$mainRed: #ff0000;
+
+body{
+    background: $mainGrey;
+    color: $mainBlack;
+    font-family: 'Satisfy', cursive;
+}

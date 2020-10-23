@@ -1,0 +1,50 @@
+@import '../../index.scss';
+
+.navbar{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 34%, rgba(178,168,228,1) 58%);
+    padding: 0.5rem 1rem;
+    display: grid;// works for only child component
+    grid-template-columns: auto 2fr;
+    
+    img{
+        
+        border-radius: 100%;
+        border: 5px solid #000303fd
+        
+    }
+}
+
+.nav-links{
+    align-self: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center; 
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    
+}
+
+.nav-link{
+    color:#b2a8e4;
+    font-size: 1.5em;
+    &:hover{
+        color:$mainBlack;
+    }
+}
+
+.nav-lnk{
+    color:#d55ed9;
+    font-size: 1.5em;
+    &:hover{
+        color:$mainBlack;
+    }
+}
+
+.nav-ink{
+    color:#4c51db;
+    font-size: 1.5em;
+    &:hover{
+        color:$mainBlack;
+    }
+}
